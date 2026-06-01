@@ -1,0 +1,25 @@
+comparison,metric,n_days,observed_delta,boot_mean,ci_low,ci_high,p_value_two_sided,win_rate,block_size,n_boot
+Riemannian-PPO Gate - Current PG Gate,mean_ret,557,-0.000919,-0.00088,-0.003484,0.001192,0.473,0.2365,10,2000
+Riemannian-PPO Gate - Current PG Gate,ann_sharpe_like,557,0.086944,0.084065,-0.071331,0.239611,0.318,0.841,10,2000
+Riemannian-PPO Gate - Current PG Gate,sortino_like,557,0.246303,0.285828,-0.838938,1.585241,0.632,0.684,10,2000
+Riemannian-PPO Gate - Current PG Gate,calmar_like,557,-0.459962,0.494226,-1.668598,3.06294,0.65,0.675,10,2000
+Riemannian-PPO Gate - Current PG Gate,max_drawdown_like,557,-0.01303,0.027034,-0.056757,0.122987,0.542,0.729,10,2000
+Riemannian-PPO Gate - Current PG Gate,worst_5pct_day_mean,557,0.00359,0.003905,-0.000784,0.009909,0.121,0.9395,10,2000
+Riemannian-PPO Gate - PPO Gate,mean_ret,557,0.001148,0.001175,-0.001823,0.004204,0.431,0.7845,10,2000
+Riemannian-PPO Gate - PPO Gate,ann_sharpe_like,557,0.109308,0.103674,-0.092518,0.286642,0.279,0.8605,10,2000
+Riemannian-PPO Gate - PPO Gate,sortino_like,557,0.812972,0.85211,-0.346127,2.307669,0.154,0.923,10,2000
+Riemannian-PPO Gate - PPO Gate,calmar_like,557,1.0486,0.886596,-0.958274,3.213298,0.342,0.829,10,2000
+Riemannian-PPO Gate - PPO Gate,max_drawdown_like,557,0.046171,0.031011,-0.041588,0.112587,0.458,0.771,10,2000
+Riemannian-PPO Gate - PPO Gate,worst_5pct_day_mean,557,0.003225,0.003586,-0.001106,0.009536,0.148,0.926,10,2000
+Riemannian-PPO Gate - V2X-B Base,mean_ret,557,-0.001172,-0.001217,-0.0046,0.001952,0.446,0.223,10,2000
+Riemannian-PPO Gate - V2X-B Base,ann_sharpe_like,557,0.333964,0.328246,0.081629,0.587592,0.006,0.997,10,2000
+Riemannian-PPO Gate - V2X-B Base,sortino_like,557,1.811153,1.828833,-0.229555,4.498794,0.086,0.957,10,2000
+Riemannian-PPO Gate - V2X-B Base,calmar_like,557,2.920771,3.093106,1.059686,6.219551,0.0,1.0,10,2000
+Riemannian-PPO Gate - V2X-B Base,max_drawdown_like,557,0.251556,0.231704,0.104836,0.38168,0.0,1.0,10,2000
+Riemannian-PPO Gate - V2X-B Base,worst_5pct_day_mean,557,0.020515,0.020709,0.008406,0.037452,0.0,1.0,10,2000
+Current PG Gate - V2X-B Base,mean_ret,557,-0.000252,-0.000337,-0.002973,0.00233,0.79,0.395,10,2000
+Current PG Gate - V2X-B Base,ann_sharpe_like,557,0.24702,0.244181,0.013044,0.501176,0.037,0.9815,10,2000
+Current PG Gate - V2X-B Base,sortino_like,557,1.56485,1.543005,-0.26247,3.995838,0.12,0.94,10,2000
+Current PG Gate - V2X-B Base,calmar_like,557,3.380732,2.598881,0.558296,5.591297,0.006,0.997,10,2000
+Current PG Gate - V2X-B Base,max_drawdown_like,557,0.264586,0.20467,0.062501,0.367808,0.005,0.9975,10,2000
+Current PG Gate - V2X-B Base,worst_5pct_day_mean,557,0.016925,0.016804,0.005707,0.031497,0.0,1.0,10,2000

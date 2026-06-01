@@ -1,0 +1,7 @@
+model,section,n_days,base_ret_mean,model_ret_mean,gate_mean,reduced_exposure_ratio,full_exposure_ratio,protection_mean
+Riemannian-PPO Gate,worst20_base_days,20,-0.104339,-0.056983,0.56,0.55,0.45,-0.047355
+Riemannian-PPO Gate,best20_base_days,20,0.31185,0.266496,0.88,0.15,0.85,0.045354
+Current PG Gate,worst20_base_days,20,-0.104339,-0.057911,0.56,0.55,0.45,-0.046428
+Current PG Gate,best20_base_days,20,0.31185,0.287614,0.91,0.15,0.85,0.024236
+PPO Gate,worst20_base_days,20,-0.104339,-0.057911,0.56,0.55,0.45,-0.046428
+PPO Gate,best20_base_days,20,0.31185,0.275044,0.88,0.25,0.75,0.036806

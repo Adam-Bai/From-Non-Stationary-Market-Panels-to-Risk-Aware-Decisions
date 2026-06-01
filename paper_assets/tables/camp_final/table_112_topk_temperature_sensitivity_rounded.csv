@@ -1,0 +1,13 @@
+setting,value,n_days,mean_ret,ann_sharpe_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,turnover_mean,effective_n_mean,source_score_col,protocol
+TopK,10.0,557,0.041095,3.096851,-0.557125,-0.09724,0.61939,0.999102,3.211108,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+TopK,20.0,557,0.041097,3.098298,-0.557083,-0.097197,0.61939,0.999102,3.253945,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+TopK,30.0,557,0.041098,3.098425,-0.557083,-0.09718,0.61939,0.999102,3.254705,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+TopK,50.0,557,0.041098,3.098425,-0.557083,-0.09718,0.61939,0.999102,3.254705,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+temperature,0.05,557,0.047695,2.967894,-0.560157,-0.114209,0.615799,0.999102,2.29634,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+temperature,0.1,557,0.041098,3.098425,-0.557083,-0.09718,0.61939,0.999102,3.254705,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+temperature,0.2,557,0.03595,3.244726,-0.524406,-0.082299,0.62298,0.999102,4.4077,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+temperature,0.5,557,0.030471,3.254055,-0.456121,-0.069423,0.644524,0.999102,6.73664,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+max_weight,0.02,557,0.03537,3.176863,-0.526748,-0.08649,0.617594,0.999102,4.329567,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+max_weight,0.03,557,0.036287,3.158618,-0.527865,-0.089222,0.615799,0.999102,4.092807,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+max_weight,0.05,557,0.037855,3.126046,-0.535457,-0.092507,0.612208,0.999102,3.75397,score_final,rebuilt from available ledger scores; diagnostic sensitivity
+max_weight,0.1,557,0.041098,3.098425,-0.557083,-0.09718,0.61939,0.999102,3.254705,score_final,rebuilt from available ledger scores; diagnostic sensitivity

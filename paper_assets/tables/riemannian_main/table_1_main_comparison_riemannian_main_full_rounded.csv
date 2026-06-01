@@ -1,0 +1,15 @@
+group,model,paper_role,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,gate_mean,turnover_mean
+Ours Final,Riemannian-PPO Gate,Risk-regularized Riemannian-PPO exposure controller,557,0.040063,0.082626,2.019169,3.442246,11.578491,6.670241,-0.302713,-0.075633,0.61939,0.759066,
+Ours Ablation,Current PG Gate,Lightweight policy-gradient exposure gate,557,0.040982,0.086712,2.0655,3.355302,11.332188,7.130202,-0.289683,-0.079223,0.61939,0.824776,
+Ours Ablation,PPO Gate,Vanilla PPO exposure gate,557,0.038915,0.08289,1.961303,3.332939,10.765519,5.62164,-0.348884,-0.078858,0.61939,0.797127,
+Ours Base,V2X-B Base,Cross-sectional action-admission portfolio before exposure control,557,0.041234,0.094179,2.078214,3.108282,9.767338,3.74947,-0.554269,-0.096148,0.61939,1.0,0.72729
+Ours Diagnostic,V2X-G Geometry Overlay,Geometry/concentration diagnostic overlay,557,0.029842,0.068078,1.504043,3.111977,8.891853,3.197037,-0.470449,-0.072437,0.653501,,0.727878
+Intermediate controller,V2R role-aware TopK30,Role-aware router reference,547,0.019314,0.040812,0.973405,3.359661,9.366163,3.327257,-0.292555,-0.044273,0.680073,,0.662193
+Single expert,V2L Frequency-aware Temporal,Temporal candidate discovery,557,0.011933,0.034582,0.601405,2.449636,4.02352,1.054842,-0.570137,-0.058034,0.660682,,0.685928
+Single expert,V2H Factor Tree,Cross-sectional action scorer,557,0.009769,0.033159,0.492378,2.091605,3.647401,0.824923,-0.596877,-0.056009,0.631957,,0.705722
+Single expert,V2M MASTER-style,Market-body transformer-style expert,557,0.008835,0.031455,0.445295,1.994058,3.486535,0.832504,-0.534886,-0.054583,0.614004,,0.703194
+Single expert,V2N StockMixer-style,Market-body mixer-style expert,557,0.008807,0.032932,0.44386,1.898501,3.494207,0.87903,-0.504942,-0.054999,0.605027,,0.780154
+Traditional factor,V2J RankIC Linear,Traditional interpretable factor anchor,557,0.002249,0.018145,0.113353,0.879968,1.122909,0.247496,-0.457998,-0.041359,0.601436,,0.470831
+Official foundation baseline,Kronos-small official frozen,Official frozen foundation baseline,557,0.001617,0.020008,0.08151,0.573831,0.938631,0.213104,-0.38249,-0.040162,0.520646,,0.126563
+Official foundation baseline,TimeMoE-50M official frozen,Official frozen foundation baseline,557,-0.014836,0.038505,-0.747725,-2.735366,-4.097617,-0.747838,-0.999849,-0.093773,0.355476,,0.649858
+Official foundation baseline,Chronos-Bolt official frozen,Official frozen foundation baseline,557,-0.01709,0.037477,-0.861334,-3.237337,-4.684669,-0.861374,-0.999954,-0.094301,0.319569,,0.767806

@@ -1,0 +1,8 @@
+model,total_trading_friction_bps,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,turnover_mean,protocol
+Action Admission Base,0,557,0.014951,0.057606,0.753528,1.842535,2.583878,0.878233,-0.858005,-0.118114,0.640934,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,5,557,0.014587,0.057612,0.7352,1.797528,2.522083,0.855667,-0.859213,-0.118514,0.639138,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,10,557,0.014224,0.057619,0.716873,1.752524,2.464198,0.833174,-0.860411,-0.118914,0.631957,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,20,557,0.013496,0.057632,0.680217,1.662524,2.338932,0.788402,-0.86278,-0.119714,0.630162,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,30,557,0.012769,0.057647,0.643562,1.57254,2.213485,0.743908,-0.86511,-0.120515,0.628366,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,50,557,0.011315,0.057678,0.570251,1.392636,1.967739,0.655719,-0.869657,-0.122115,0.612208,0.72729,total friction includes explicit cost and slippage proxy
+Action Admission Base,100,557,0.007678,0.057775,0.386974,0.943466,1.349256,0.439543,-0.8804,-0.126115,0.561939,0.72729,total friction includes explicit cost and slippage proxy

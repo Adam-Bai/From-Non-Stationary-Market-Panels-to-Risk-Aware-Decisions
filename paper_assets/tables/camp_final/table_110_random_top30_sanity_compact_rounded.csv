@@ -1,0 +1,4 @@
+kind,model,n_runs,mean_ret_mean,ann_sharpe_mean,maxdd_mean,worst5_mean,mean_ret_std,ann_sharpe_std,seed
+random_top30,Random Top30 mean over seeds,100,0.011799,2.499544,-0.56966,-0.057943,0.0,0.0,
+model,Action Admission Base,1,0.041234,3.108282,-0.554269,-0.097028,,,
+model,CAMP SPD-Geometric PPO,1,0.040063,3.442246,-0.302713,-0.076423,,,

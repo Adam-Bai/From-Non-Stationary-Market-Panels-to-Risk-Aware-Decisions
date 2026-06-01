@@ -1,0 +1,7 @@
+controller_state,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,gate_mean,note
+Strategy history only,557,0.038915,0.08289,1.961303,3.332939,10.765519,5.62164,-0.348884,-0.079661,0.61939,0.797127,
+Strategy history + affine-invariant SPD state,557,0.040063,0.082626,2.019169,3.442246,11.578491,6.670241,-0.302713,-0.076423,0.61939,0.759066,
+Strategy history + Raw market-state proxy,557,0.032247,0.08191,1.625251,2.794929,8.492741,3.512865,-0.462657,-0.087362,0.61939,0.839856,rule diagnostic; no policy retraining
+Strategy history + Euclidean-like covariance distance proxy,557,0.035685,0.086781,1.798542,2.919301,9.199291,3.889186,-0.462447,-0.086157,0.61939,0.839856,rule diagnostic; no policy retraining
+Strategy history + Log-Euclidean moving state proxy,557,0.030792,0.077453,1.551925,2.822383,7.968393,2.474911,-0.627063,-0.087322,0.61939,0.839856,rule diagnostic; no policy retraining
+Strategy history + Affine-invariant SPD distance rule,557,0.031203,0.078089,1.572656,2.83679,8.018251,2.522536,-0.623443,-0.08699,0.61939,0.839856,rule diagnostic; no policy retraining

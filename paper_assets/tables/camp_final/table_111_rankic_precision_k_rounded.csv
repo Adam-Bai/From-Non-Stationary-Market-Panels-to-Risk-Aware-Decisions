@@ -1,0 +1,4 @@
+model,status,source,columns
+Temporal,missing_cols,outputs/dive_trader_v2/experts/v2l_frequency_expert/score_test_v2l_frequency_expert.csv,Date|Ticker|score
+FactorTree,missing_cols,outputs/dive_trader_v2/experts/factor_tree/score_test_factor_tree.csv,Date|Ticker|score
+RankICLinear,missing_cols,outputs/dive_trader_v2/experts/v2j_rankic_linear/score_test_v2j_rankic_linear.csv,Date|Ticker|score

@@ -1,0 +1,8 @@
+model,total_trading_friction_bps,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,turnover_mean,protocol
+Action Admission Base,0,557,0.041598,0.094168,2.096541,3.136069,9.89111,3.84697,-0.544985,-0.09668,0.62298,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,5,557,0.041234,0.094179,2.078214,3.108282,9.767338,3.74947,-0.554269,-0.097028,0.61939,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,10,557,0.040871,0.094191,2.059886,3.080497,9.644916,3.656387,-0.563367,-0.097376,0.615799,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,20,557,0.040143,0.094214,2.023231,3.024933,9.457719,3.482206,-0.58102,-0.098073,0.614004,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,30,557,0.039416,0.094238,1.986575,2.969378,9.250719,3.322182,-0.597973,-0.098769,0.610413,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,50,557,0.037962,0.094287,1.913264,2.858298,8.838234,3.037471,-0.629887,-0.100162,0.603232,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
+Action Admission Base,100,557,0.034325,0.094421,1.729987,2.580825,7.840937,2.474216,-0.699206,-0.103651,0.587074,0.72729,official base ledger; day_net_ret is 5bps protocol; other frictions adjust by turnover*(bps-5)/10000
