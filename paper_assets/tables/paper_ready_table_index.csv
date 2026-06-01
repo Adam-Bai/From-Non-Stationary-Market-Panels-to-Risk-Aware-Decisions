@@ -1,0 +1,7 @@
+table,paper_section,main_message
+table_1_main_comparison_paper_ready.csv,Main Results,V2X-RL preserves high mean return while reducing max drawdown versus V2X-B and outperforming official frozen foundation baselines.
+table_2_china_constraints_paper_ready.csv,Market Constraint Robustness,The strategy remains robust to cost increases; limit-up and liquidity filters reveal where A-share alpha is concentrated.
+table_3_concentration_paper_ready.csv,Concentration and Risk Diagnostics,V2X-B has hidden concentration despite Top30; geometry increases breadth; RL reduces capital exposure without reselecting stocks.
+table_4a_rl_action_frequency_paper_ready.csv,Policy Behavior,RL keeps full exposure most of the time and only reduces exposure in selected risk states.
+table_4b_rl_worst_best_behavior_paper_ready.csv,Policy Behavior,RL reduces losses on worst base-policy days while preserving most upside on best days.
+table_5_role_separation_ablation_paper_ready.csv,Role-Separation Ablation,"Temporal, cross-sectional, market-body, geometry, and exposure modules have distinct financial roles rather than being a flat expert stack."

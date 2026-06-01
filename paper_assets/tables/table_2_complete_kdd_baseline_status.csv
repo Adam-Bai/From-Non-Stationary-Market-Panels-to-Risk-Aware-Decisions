@@ -1,0 +1,12 @@
+group,status,n
+Deep TS baseline,ready,3
+Flat ensemble,ready,3
+Intermediate controller,ready,1
+Official foundation baseline,ready,3
+Ours,ready,2
+Ours diagnostic,ready,1
+Risk-controlled expert,ready,4
+Single expert,ready,4
+Static ML baseline,ready,3
+Traditional factor,ready,1
+Traditional portfolio,ready,5

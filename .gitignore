@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+data_external/
+outputs/*
+!outputs/.gitkeep
+*.dat
+*.npy
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.log

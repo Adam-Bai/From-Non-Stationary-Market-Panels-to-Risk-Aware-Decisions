@@ -1,0 +1,10 @@
+group,model,paper_role,n_days,mean_ret,ann_sharpe_like,max_drawdown_like,positive_day_ratio,gate_mean,paper_usage
+Ours,V2X-RL+ five-level exposure,Final risk-aware exposure overlay,557,0.041,3.3553,-0.2897,0.6194,0.8248,Main final method: risk-aware exposure overlay.
+Ours,V2X-B Cross Action Admission,High-return stock-selection controller,557,0.0412,3.1083,-0.5543,0.6194,1.0,High-return stock-selection base before exposure control.
+Ours diagnostic,V2X-G Cross-Geometry Overlay,Geometry/concentration diagnostic overlay,557,0.0298,3.112,-0.4704,0.6535,,Diagnostic geometry overlay showing concentration/risk regularization.
+Intermediate controller,V2R role-aware TopK30,Intermediate role-aware router,547,0.0193,3.3597,-0.2926,0.6801,,"Intermediate role-aware controller reference, earlier 547-day protocol."
+Single expert,V2L Frequency-aware Temporal,Temporal candidate discovery,557,0.0119,2.4496,-0.5701,0.6607,,Single temporal candidate-discovery expert.
+Single expert,V2H Factor Tree,Cross-sectional action scorer,557,0.0098,2.0916,-0.5969,0.632,,Single cross-sectional action scorer.
+Official foundation baseline,Kronos-small official frozen,Official foundation baseline,557,0.0016,0.5738,-0.3825,0.5206,,Official frozen foundation baseline.
+Official foundation baseline,TimeMoE-50M official frozen,Official foundation baseline,557,-0.0148,-2.7354,-0.9998,0.3555,,Official frozen foundation baseline.
+Official foundation baseline,Chronos-Bolt official frozen,Official foundation baseline,557,-0.0171,-3.2373,-1.0,0.3196,,Official frozen foundation baseline.

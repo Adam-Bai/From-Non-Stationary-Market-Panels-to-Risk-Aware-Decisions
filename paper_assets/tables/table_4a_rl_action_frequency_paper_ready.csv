@@ -1,0 +1,5 @@
+section,gate,n_days,ratio,gate_mean,gate_min,gate_max,base_mean_ret,rl_mean_ret,base_maxdd,rl_maxdd
+action_frequency,0.2,108,0.1938958707360861,,,,,,,
+action_frequency,0.8,56,0.1005385996409335,,,,,,,
+action_frequency,1.0,393,0.7055655296229802,,,,,,,
+summary,,557,,0.8247755834829443,0.2,1.0,0.0412343991922589,0.0409821376829593,-0.5542686967028548,-0.2896831936804759
