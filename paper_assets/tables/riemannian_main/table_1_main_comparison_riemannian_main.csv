@@ -1,0 +1,15 @@
+group,model,paper_role,n_days,mean_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,gate_mean
+Ours Final,Riemannian-PPO Gate,Risk-regularized Riemannian-PPO exposure controller,557,0.0401,2.0192,3.4422,11.5785,6.6702,-0.3027,-0.0756,0.6194,0.7591
+Ours Ablation,Current PG Gate,Lightweight policy-gradient exposure gate,557,0.041,2.0655,3.3553,11.3322,7.1302,-0.2897,-0.0792,0.6194,0.8248
+Ours Ablation,PPO Gate,Vanilla PPO exposure gate,557,0.0389,1.9613,3.3329,10.7655,5.6216,-0.3489,-0.0789,0.6194,0.7971
+Ours Base,V2X-B Base,Cross-sectional action-admission portfolio before exposure control,557,0.0412,2.0782,3.1083,9.7673,3.7495,-0.5543,-0.0961,0.6194,1.0
+Ours Diagnostic,V2X-G Geometry Overlay,Geometry/concentration diagnostic overlay,557,0.0298,1.504,3.112,8.8919,3.197,-0.4704,-0.0724,0.6535,
+Intermediate controller,V2R role-aware TopK30,Role-aware router reference,547,0.0193,0.9734,3.3597,9.3662,3.3273,-0.2926,-0.0443,0.6801,
+Single expert,V2L Frequency-aware Temporal,Temporal candidate discovery,557,0.0119,0.6014,2.4496,4.0235,1.0548,-0.5701,-0.058,0.6607,
+Single expert,V2H Factor Tree,Cross-sectional action scorer,557,0.0098,0.4924,2.0916,3.6474,0.8249,-0.5969,-0.056,0.632,
+Single expert,V2M MASTER-style,Market-body transformer-style expert,557,0.0088,0.4453,1.9941,3.4865,0.8325,-0.5349,-0.0546,0.614,
+Single expert,V2N StockMixer-style,Market-body mixer-style expert,557,0.0088,0.4439,1.8985,3.4942,0.879,-0.5049,-0.055,0.605,
+Traditional factor,V2J RankIC Linear,Traditional interpretable factor anchor,557,0.0022,0.1134,0.88,1.1229,0.2475,-0.458,-0.0414,0.6014,
+Official foundation baseline,Kronos-small official frozen,Official frozen foundation baseline,557,0.0016,0.0815,0.5738,0.9386,0.2131,-0.3825,-0.0402,0.5206,
+Official foundation baseline,TimeMoE-50M official frozen,Official frozen foundation baseline,557,-0.0148,-0.7477,-2.7354,-4.0976,-0.7478,-0.9998,-0.0938,0.3555,
+Official foundation baseline,Chronos-Bolt official frozen,Official frozen foundation baseline,557,-0.0171,-0.8613,-3.2373,-4.6847,-0.8614,-1.0,-0.0943,0.3196,

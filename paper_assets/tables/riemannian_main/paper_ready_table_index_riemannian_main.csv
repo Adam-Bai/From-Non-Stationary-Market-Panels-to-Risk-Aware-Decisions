@@ -1,0 +1,8 @@
+table,paper_section,main_message
+table_1_main_comparison_riemannian_main_compact.csv,Main Results,Riemannian-PPO is the final exposure controller; Current PG is a lightweight ablation.
+table_2_china_constraints_riemannian_main.csv,Market Constraint Robustness,A-share trading constraints are evaluated on the action-admission portfolio and remain relevant before exposure control.
+table_3_concentration_riemannian_main.csv,Concentration Diagnostics,Riemannian-PPO rescales exposure without reselecting stocks; normalized concentration follows V2X-B.
+table_4a_policy_action_frequency_riemannian_main.csv,Policy Behavior,Riemannian-PPO reduces exposure more frequently than Current PG and is more downside-sensitive.
+table_4b_policy_worst_best_behavior_riemannian_main.csv,Policy Behavior,Riemannian-PPO slightly improves worst-day protection but sacrifices some best-day upside.
+table_6_block_bootstrap_riemannian_main_compact.csv,Statistical Analysis,Riemannian-PPO significantly improves over Base; the difference versus Current PG is not statistically decisive.
+table_A_institutional_risk_metrics_riemannian_main_compact.csv,Appendix,Practitioner-oriented risk metrics support the downside-sensitive role of Riemannian-PPO.
