@@ -1,0 +1,13 @@
+component,selection_or_estimation_source,search_space_or_rule,selected_value,test_used_for_selection
+Stock sequence normalization,training split only,"z-score using train statistics; clip [-8,8]",fixed preprocessing rule,No
+Market sequence normalization,training split only,"z-score using train statistics; clip [-8,8]",fixed preprocessing rule,No
+Temporal candidate size M,validation split,"{80,120,160,200,300}",validation-selected,No
+Action admission weight omega,validation split,"{0.5,1.0,1.5}",validation-selected,No
+TopK portfolio size,protocol,Top30 main protocol,30,No
+Base exposure,protocol,softmax projection total exposure,0.5,No
+Max single-stock weight,protocol,portfolio projection cap,0.10,No
+Geometry overlay coefficients,validation split,crowding / limit-up / liquidity coefficient grid,validation-selected diagnostic,No
+SPD-Riemannian reference matrix,training split only,log-Euclidean mean of training-date SPD covariances,train-period reference,No
+PPO reward coefficients,validation split,"dd_penalty {0.5,1,2,4}; loss_penalty {0,0.2,0.5}; turnover_penalty {0,0.01,0.03}",validation-selected,No
+PPO random seeds,validation split,"{2021,2022,2023,2024,2025}",validation-selected controller,No
+T+1 robustness,frozen test diagnostic,apply frozen final gate to delayed base-return sequence,no retraining,No model selection

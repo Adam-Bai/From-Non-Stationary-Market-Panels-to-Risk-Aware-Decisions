@@ -1,0 +1,4 @@
+model,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,bucket,gate_mean,riemann_metric_mean,full_exposure_ratio,reduced_exposure_ratio
+Riemannian bucket low,186,0.034274,0.071529,1.727391,3.401702,9.623993,8.11924,-0.212753,-0.076317,0.607527,low,0.830108,-0.537663,0.763441,0.236559
+Riemannian bucket mid,185,0.045182,0.090859,2.277159,3.530278,12.091404,9.219506,-0.246994,-0.079348,0.627027,mid,0.785946,0.020263,0.724324,0.275676
+Riemannian bucket high,186,0.040761,0.084005,2.054342,3.444688,14.403577,9.544209,-0.215245,-0.054004,0.623656,high,0.66129,0.96999,0.575269,0.424731
