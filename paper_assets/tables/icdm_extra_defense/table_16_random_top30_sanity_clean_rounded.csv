@@ -1,0 +1,4 @@
+kind,model,n_runs,mean_ret_mean,ann_sharpe_mean,maxdd_mean,worst5_mean
+random_top30,Random Top30,50,0.002638,0.823994,-0.504051,-0.048213
+model,Action Admission Base,1,0.041234,3.108282,-0.554269,-0.096148
+model,SPD-Riemannian PPO Gate,1,0.040063,3.442246,-0.302713,-0.075633

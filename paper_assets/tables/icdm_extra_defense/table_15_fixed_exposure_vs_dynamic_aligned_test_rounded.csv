@@ -1,0 +1,9 @@
+model,n_days,mean_ret,std_ret,ann_ret_like,ann_sharpe_like,sortino_like,calmar_like,max_drawdown_like,worst_5pct_day_mean,positive_day_ratio,gate_mean,protocol
+Fixed gate 0.2,557,0.008247,0.018836,0.415643,3.108282,9.767338,3.037961,-0.136816,-0.01923,0.61939,0.2,fixed_exposure_aligned_test
+Fixed gate 0.4,557,0.016494,0.037672,0.831285,3.108282,9.767338,3.201726,-0.259637,-0.038459,0.61939,0.4,fixed_exposure_aligned_test
+Fixed gate 0.6,557,0.024741,0.056507,1.246928,3.108282,9.767338,3.369016,-0.370116,-0.057689,0.61939,0.6,fixed_exposure_aligned_test
+Fixed gate 0.8,557,0.032988,0.075343,1.662571,3.108282,9.767338,3.55152,-0.468129,-0.076918,0.61939,0.8,fixed_exposure_aligned_test
+Fixed gate 1.0,557,0.041234,0.094179,2.078214,3.108282,9.767338,3.74947,-0.554269,-0.096148,0.61939,1.0,fixed_exposure_aligned_test
+SPD-Riemannian PPO Gate,557,0.040063,0.082626,2.019169,3.442246,11.578491,6.670241,-0.302713,-0.075633,0.61939,0.759066,dynamic_exposure_aligned_test
+Vanilla PPO Gate,557,0.038915,0.08289,1.961303,3.332939,10.765519,5.62164,-0.348884,-0.078858,0.61939,0.797127,dynamic_exposure_aligned_test
+Current PG Gate,557,0.040982,0.086712,2.0655,3.355302,11.332188,7.130202,-0.289683,-0.079223,0.61939,0.824776,dynamic_exposure_aligned_test
